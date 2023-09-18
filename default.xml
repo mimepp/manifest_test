@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote
+    name="github"
+    fetch="../.."
+    review="https://github.com/mimepp"
+  />
+
+  <default
+    revision="dev_branch/master"
+    remote="github"
+  />
+  <project groups="synasdk" name="hello_test" path="hello_test"/>
+</manifest>
